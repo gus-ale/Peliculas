@@ -1,8 +1,8 @@
 const fs = require("fs");
 
 const getAll = function () {
-    const data =  fs.readFileSync(__dirname + "/pelis.json".toString());
-    return JSON.parse(data);
+    const archivo =  JSON.parse(fs.readFileSync(__dirname + "/pelis.json").toString());
+    return archivo ;
 };
 
 const searchBy = function (texto, arrayDePelis) {
