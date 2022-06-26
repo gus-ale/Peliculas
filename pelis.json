@@ -1,0 +1,39 @@
+[
+    {
+        "title" : "Langoliers",
+        "rating" : 5,
+        "tags" : ["misterio", "favorita", "vieja"]
+    },
+
+    {    
+        "title": "It", 
+        "rating": 1,
+        "tags": ["terror","favorita", "nueva"]
+    },
+
+    {
+        "title" : "El silencio de los inocentes ",
+        "rating" : 4,
+        "tags" : ["suspenso", "favorita", "vieja"]
+    },
+
+    {  
+        "title": "Pecados capitales", 
+        "rating": 3,
+        "tags": ["favorita", "nueva"]  
+    },
+
+    {
+        "title" : "Hulk",
+        "rating" : 6,
+        "tags" : ["acción", "favorita", "nueva"]
+    },
+
+    {       
+        "title": "El hombre araña", 
+        "rating": 2,
+        "tags": ["accion","superheroes","favorita", "nueva"] 
+    }
+
+
+]
