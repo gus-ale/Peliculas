@@ -36,15 +36,15 @@ exports.searchByCriteria = (criterios)=> {
     // comienzo un array vacio que voy a empezar a rellenar con las respuestas de las funciones
   let tmp = getAll();
   if(criterios.search) {
-    console.log("hay search y es", criterios.search);
+    //console.log("hay search y es", criterios.search);
     tmp = searchBy(criterios.search, tmp);
   }
   if(criterios.sort) {  
-      console.log("hay sort y es", criterios.sort);
+      //console.log("hay sort y es", criterios.sort);
       tmp = sortBy(criterios.sort, tmp);
   }
   if(criterios.tag){
-    console.log("hay serach y es ", tmp.tag);
+    //console.log("hay serach y es ", tmp.tag);
     tmp = tag(criterios.tag, tmp);
   }
   if(criterios.hasOwnProperty("no-format")){
