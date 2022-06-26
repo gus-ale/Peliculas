@@ -15,7 +15,7 @@ function parsearARGV(consoleInput) {
 function main() {
   const comandosAEjecutar = parsearARGV(process.argv);
 
-  console.log(pelis.searchByCriteria(comandosAEjecutar));
+  pelis.searchByCriteria(comandosAEjecutar);
 }
 
 main();
