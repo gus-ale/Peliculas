@@ -1,4 +1,3 @@
-
 const pelis = require("./pelis");
 
 function parsearARGV(consoleInput) {
@@ -15,7 +14,7 @@ function parsearARGV(consoleInput) {
 function main() {
   const comandosAEjecutar = parsearARGV(process.argv);
 
-  pelis.searchByCriteria(comandosAEjecutar);
+  console.log(pelis.searchByCriteria(comandosAEjecutar));
 }
 
 main();
