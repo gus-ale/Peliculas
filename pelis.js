@@ -1,8 +1,5 @@
-const fs = require("fs");
-
-const getAll = function () {
-    const data =  fs.readFileSync(__dirname + "/pelis.json".toString());
-    return JSON.parse(data);
+se = JSON.parse(data);
+    return parse;
   };
 
   const searchBy = function (texto, arrayDePelis) {
@@ -27,7 +24,8 @@ const getAll = function () {
   return tag;
 };
   const sinFormato = function (pelis) {
-    return  JSON.stringify(pelis);
+    const formato = JSON.stringify(pelis);
+    return formato;
   };
 
   exports.searchByCriteria = function (criterios) {
@@ -36,12 +34,14 @@ const getAll = function () {
     if (criterios.search) {
       console.log("hay search y es", criterios.search);
       tmp = searchBy(criterios.search, tmp);
+
     } else {
       console.log("no hay search");
     }
     if (criterios.sort) {
-      tmp = sortBy(criterios.sort, tmp);
+      
       console.log("hay sort y es", criterios.sort);
+      tmp = sortBy(criterios.sort, tmp);
     } else {
       console.log("no hay sort");
     }
