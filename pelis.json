@@ -33,7 +33,11 @@
         "title": "El hombre araña", 
         "rating": 2,
         "tags": ["accion","superheroes","favorita", "nueva"] 
-    }
-
+    },
+    {
+        "title": "Magic maik",
+        "rating": 7,
+        "tags": ["humor", "baile", "nueva"]
+    }    
 
 ]
